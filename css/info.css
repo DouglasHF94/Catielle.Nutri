@@ -22,17 +22,6 @@
     position: relative;
 }
 
-.informacao-texto > a {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    color: var(--cor-4);
-    background-color: var(--cor-1);
-    padding: 5px 10px;
-    border-radius: 5px;
-    position: absolute;
-    left: 150px;
-    top: 350px;
-}
 
 @media (max-width: 800px) {
 
@@ -41,12 +30,6 @@
         gap: 30px;
     }
     
-
-    .informacao-texto > a {
-        left: 100px;
-        top: 315px;
-    }
-
     .informacao-texto {
         font-size: 40px;
     }
@@ -69,13 +52,6 @@
         margin: 50px auto;
         gap: 15px;
         padding: 10px;
-    }
-
-    .informacao-texto > a {
-        font-size: 15px;
-        padding: 5px 10px;
-        left: 80px;
-        top: 170px;
     }
 }
 
