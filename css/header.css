@@ -85,4 +85,8 @@
     .header-menu {
         margin-top: 40px;
     }
+
+    .header-menu {
+        gap: 20px;
+    }
 }
